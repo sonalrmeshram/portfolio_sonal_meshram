@@ -164,11 +164,11 @@
       font-family: 'Syne', sans-serif;
       font-size: clamp(3.5rem, 9vw, 7rem);
       font-weight: 800;
-      line-height: 0.95;
+      line-height: 01.05;
       letter-spacing: -0.03em;
       margin-bottom: 1.5rem;
     }
-    .hero-name .line { display: block; overflow: hidden; }
+    .hero-name .line { display: block; overflow: hidden; padding-bottom: 0.15em;}
     .hero-name .word {
       display: inline-block;
       animation: slideUp 0.8s cubic-bezier(0.16,1,0.3,1) both;
@@ -620,8 +620,9 @@
       <div class="hero-content">
         <div class="hero-label">Available for Opportunities</div>
 
-        <h1 class="hero-name" style="animation: none !important;">
-              Sonal Meshram
+        <h1 class="hero-name">
+        <span class="line"><span class="word">Sonal</span></span>
+        <span class="line"><span class="word"><span class="glow">Meshram</span></span></span>
         </h1>
 
         <div class="hero-role">// Cloud &amp; DevOps Engineer</div>
